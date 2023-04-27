@@ -11,11 +11,11 @@ public class InventoryPage extends BasePage {
     @FindBy(className = "product_sort_container")
     WebElement sortDropDown;
     @FindBy(id = "add-to-cart-sauce-labs-onesie")
-    public WebElement Onesie;
+     WebElement Onesie;
     @FindBy(id = "add-to-cart-test.allthethings()-t-shirt-(red)")
     WebElement TshirtRed;
     @FindBy(id = "add-to-cart-sauce-labs-bike-light")
-    public WebElement Bikelight;
+     WebElement Bikelight;
     @FindBy(css = "#shopping_cart_container span")
     WebElement cart;
     @FindBy(id = "checkout")
