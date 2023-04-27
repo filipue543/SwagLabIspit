@@ -41,9 +41,9 @@ public class InventoryTest extends BaseTest {
         inventoryPage.Bikelight();
         inventoryPage.ClickOnCart();
         inventoryPage.ClickCheckout();
-        checkoutPage.EnterFirstName("Jovan");
-        checkoutPage.EnterLastName("Dzodan");
-        checkoutPage.EnterPostalCode("11000");
+        checkoutPage.EnterFirstName("Filip");
+        checkoutPage.EnterLastName("Radivojcevic");
+        checkoutPage.EnterPostalCode("31000");
         checkoutPage.ClickContinue();
         checkoutPage.ItemTotal();
         Assert.assertEquals(checkoutPage.ItemTotal(), "Item total: $33.97");

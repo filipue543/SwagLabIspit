@@ -11,10 +11,11 @@ public class LoginPage extends BasePage {
     WebElement userName;
     @FindBy(id = "password")
     WebElement password;
-    @FindBy(id = "login-button")
-    WebElement loginButton;
     @FindBy(css = ".error-message-container h3")
     WebElement errorMessage;
+    @FindBy(id = "login-button")
+    WebElement loginButton;
+
 
     public LoginPage(ChromeDriver driver) {
         this.driver = driver;

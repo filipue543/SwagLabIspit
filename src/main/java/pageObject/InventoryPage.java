@@ -13,7 +13,7 @@ public class InventoryPage extends BasePage {
     @FindBy(id = "add-to-cart-sauce-labs-onesie")
      WebElement Onesie;
     @FindBy(id = "add-to-cart-test.allthethings()-t-shirt-(red)")
-    WebElement TshirtRed;
+    WebElement Tshirt;
     @FindBy(id = "add-to-cart-sauce-labs-bike-light")
      WebElement Bikelight;
     @FindBy(css = "#shopping_cart_container span")
@@ -39,7 +39,7 @@ public class InventoryPage extends BasePage {
     }
 
     public void TshirtRed() {
-        TshirtRed.click();
+        Tshirt.click();
     }
 
     public void ClickOnCart() {
