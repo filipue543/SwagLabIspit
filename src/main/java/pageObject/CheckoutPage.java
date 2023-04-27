@@ -57,7 +57,4 @@ public class CheckoutPage extends BasePage {
         return itemTotalprice.getText();
     }
 
-    public String TotalPrice() {
-        return TotalEndPrice.getText();
     }
-}
