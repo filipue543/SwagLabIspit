@@ -21,8 +21,7 @@ public class CheckoutPage extends BasePage {
     WebElement completedOrder;
     @FindBy(css = "div.summary_subtotal_label")
     WebElement itemTotalprice;
-    @FindBy(css = "div.summary_total_label")
-    WebElement TotalEndPrice;
+
 
     public CheckoutPage(ChromeDriver driver) {
         this.driver = driver;
